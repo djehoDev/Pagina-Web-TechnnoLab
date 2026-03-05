@@ -1,0 +1,51 @@
+/* ===== ESTILOS GENERALES ===== */
+
+body {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+    background-color: #a4da3f;
+}
+
+.navbar .nav-link:hover {
+    color: #146bec;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #a4da3f;
+}
+
+/* ===== RESPONSIVIDAD EXTRA ===== */
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+}
