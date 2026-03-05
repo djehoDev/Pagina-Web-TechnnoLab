@@ -1,4 +1,4 @@
-/* ===== ESTILOS GENERALES ===== */
+/* ===== estilos generales ===== */
 
 body {
     scroll-behavior: smooth;
@@ -40,12 +40,4 @@ footer {
 
 .social-icons a:hover {
     color: #a4da3f;
-}
-
-/* ===== RESPONSIVIDAD EXTRA ===== */
-
-@media (max-width: 768px) {
-    .hero {
-        text-align: center;
-    }
 }
